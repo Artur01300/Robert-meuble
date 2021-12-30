@@ -1,0 +1,36 @@
+.articlsMain_navbar{
+    padding: 2rem 0rem 2rem 2rem;
+    background-color: #dcddd5;
+    font-family: "font_text_navbar";
+    font-weight: bold;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container_chesse{
+    padding: 3rem 4rem;
+    margin: auto;
+    width: 100%;
+    .card{
+        border: none;
+        h4{
+            margin: 0;
+        }
+    }
+    img{
+        max-width: 423px;
+        max-height: 320px;
+    }
+    .card-body{
+        padding-bottom: 5rem;
+    }
+}
+
+// slide images
+  .carousel-indicators li{
+    background-color: rgb(24, 35, 41);
+  }
+  .carousel-indicators dl, ol, ul{
+    margin-bottom: 3rem;
+  }

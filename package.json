@@ -1,0 +1,31 @@
+{
+  "name": "projet-robert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass sass/main.scss css/styles.css --watch --style compressed",
+    "prod": "postcss css/styles.css --use autoprefixer -o css/all.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur01300/ProjetMeuble.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/Artur01300/ProjetMeuble/issues"
+  },
+  "homepage": "https://github.com/Artur01300/ProjetMeuble#readme",
+  "dependencies": {
+    "sass": "^1.45.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.12",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2"
+  }
+}

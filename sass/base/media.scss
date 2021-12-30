@@ -1,0 +1,55 @@
+@media (max-width: 576px){
+
+    .navbarMain{
+        padding: 2rem 0rem 1rem 1rem;
+
+        .navbar-nav{
+            flex-direction: row;
+
+            .active>a{
+                padding: .5rem;
+            }
+            
+            .nav-link{
+                margin: 10px;
+            }
+        }
+        .navbar-nav>.active>a {
+            // background-color: #fff !important;
+            color: #e9585e!important;
+        }
+        
+    }
+
+    .headerMain_bgvideo{
+        background: url("../img/bg_mobil.jpg") no-repeat center center/cover !important;
+    }
+
+    .headerMain_btn-coler{
+        background: rgba(233, 88, 80, .25) !important;
+        border: 1px solid rgba(233, 88, 80, .75) !important;
+    }
+
+    .categoryContainer{
+        padding: 0rem 0rem 0rem 0rem;
+    }
+}
+
+// ------------------------------ Categorys -------------------------
+
+@media(max-width: 1024px){
+    .categoryContainer{
+        padding-top: max(0.4rem );
+        padding-bottom: max(0.2rem );
+    }
+}
+
+@media(max-width: 768px){
+    .categoryContainer{
+       padding-bottom: 2rem;
+    }
+    .category-hover{
+        margin-bottom: 0rem;
+    }
+
+}

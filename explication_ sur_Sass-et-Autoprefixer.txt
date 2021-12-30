@@ -1,0 +1,48 @@
+Procédur d'installation:
+
+1 npm i sass
+dans package.json/scripts ajouter "dev": "sass sass/main.scss css/styles.css --watch --style compressed"
+
+https://www.npmjs.com/package/postcss-cli
+
+
+Pour autoprefixer:
+2 npm i -D postcss postcss-cli
+
+puit installer le package: 
+
+3 npm i -D postcss-import autoprefixer cssnano
+
+https://www.npmjs.com/package/cssnano
+
+4 dans package.json/scripts ajouter:  "prod": "postcss css/styles.css --use autoprefixer -d css/prefixer/all.css"
+
+
+5 dans package.json/scripts apret l'objet "repository" ajouter : 
+"browserslist": "last 4 versions"
+
+exemple:
+
+"scripts": {
+    "dev": "sass sass/main.scss css/styles.css --watch --style compressed",
+    "prod": "postcss css/styles.css --use autoprefixer -d css/prefixer/all.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur01300/ProjetMeuble.git"
+  },
+  "browserslist": "last 4 versions",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artur01300/ProjetMeuble/issues"
+  },
+
+
+
+
+6 pour exexuter les comment:
+
+npm run dev
+et
+npm run prod
