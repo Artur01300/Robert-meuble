@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "comment": {
+    "dev": "sass sass/main.scss css/styles.css --watch --style compressed"
+  },
   "scripts": {
-    "dev": "sass sass/main.scss css/styles.css --watch --style compressed",
+    "dev": "sass sass/main.scss css/styles.css --watch",
     "prod": "postcss css/styles.css --use autoprefixer -o css/all.css"
   },
   "repository": {

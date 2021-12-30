@@ -1,6 +1,6 @@
 @media (max-width: 576px){
 
-    .navbarMain{
+    .articlsMain_navbar{
         padding: 2rem 0rem 1rem 1rem;
 
         .navbar-nav{
@@ -52,4 +52,29 @@
         margin-bottom: 0rem;
     }
 
+}
+
+// --------------------------------- chaises ------------------------------
+
+@media(max-width: 1024px){
+    .container_chesse{
+        padding: 9rem 0rem 0rem 0rem;
+    }
+}
+
+@media(max-width: 700px){
+
+    .container_chesse .row{
+        display: block;
+    }
+}
+
+@media(max-width: 450px){
+
+    .articlsMain_navbar{
+        padding: 1rem 0rem 1rem 1rem;
+    }
+    .container_chesse .card-body{
+        padding-bottom: 2rem;
+    }
 }
