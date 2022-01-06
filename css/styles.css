@@ -283,6 +283,10 @@
 }
 .chaseHitsCat-card .hitsCardBody .card-text {
   padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+.chaseHitsCat-card .hitsCardBody h5, .chaseHitsCat-card .hitsCardBody span {
+  font-weight: bold;
 }
 
 .hitsbn-btn-three a {
@@ -381,7 +385,7 @@
 }
 @media (max-width: 768px) {
   .categoryContainer {
-    padding-bottom: 2rem;
+    margin-top: -2rem;
   }
 
   .category-hover {
@@ -408,8 +412,15 @@
   }
 }
 @media (max-width: 800px) {
+  .chaseHitsCat {
+    width: 90%;
+  }
+
   .chaseHitsCat-card {
     flex-direction: column;
+  }
+  .chaseHitsCat-card .hitsCardBody {
+    padding-left: 1rem;
   }
 
   .chaseHitsCat-card img {

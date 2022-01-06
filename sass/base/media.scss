@@ -46,7 +46,7 @@
 
 @media(max-width: 768px){
     .categoryContainer{
-       padding-bottom: 2rem;
+       margin-top:-2rem;
     }
     .category-hover{
         margin-bottom: 0rem;
@@ -82,8 +82,14 @@
 // ---------------------- chaseHitsCat ----------------------------------
 
 @media(max-width: 800px){
+    .chaseHitsCat {
+        width: 90%;
+    }
     .chaseHitsCat-card{
         flex-direction: column;
+        .hitsCardBody {
+            padding-left: 1rem;
+        }
     }
     .chaseHitsCat-card img {
         width: auto;
