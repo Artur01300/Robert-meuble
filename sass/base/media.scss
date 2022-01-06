@@ -46,7 +46,9 @@
 
 @media(max-width: 768px){
     .categoryContainer{
-       margin-top:-2rem;
+       margin-top: -3rem;
+       margin-bottom: 1rem;
+
     }
     .category-hover{
         margin-bottom: 0rem;
@@ -77,6 +79,8 @@
     .container_chesse .card-body{
         padding-bottom: 2rem;
     }
+
+    
 }
 
 // ---------------------- chaseHitsCat ----------------------------------
@@ -107,5 +111,21 @@
     .chaseHitsCat-card {
         padding-top: 8rem;
         padding-bottom: 1rem;
+    }
+
+    .chaseHitsCat-card_carousel{
+        padding-top: 8rem;
+        padding-bottom: 3rem;
+    }
+    .chaseHitsCat-card_carousel img{
+        width: 99%;
+        margin: auto;
+    }
+
+    .hitsCategories-carousel{
+        bottom: -3.6%;
+    }
+    .carousel-item .card-body:last-child{
+        margin-bottom: 3.5rem;
     }
 }

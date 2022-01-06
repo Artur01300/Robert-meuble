@@ -248,6 +248,11 @@
   padding-bottom: 5rem;
 }
 
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
 .carousel-indicators li {
   background-color: #182329;
 }
@@ -347,6 +352,11 @@
   transform: scale(1, 1);
 }
 
+.hitsCategories-carousel {
+  right: 0;
+  bottom: -20%;
+}
+
 @media (max-width: 576px) {
   .articlsMain_navbar {
     padding: 2rem 0rem 1rem 1rem;
@@ -385,7 +395,8 @@
 }
 @media (max-width: 768px) {
   .categoryContainer {
-    margin-top: -2rem;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
   }
 
   .category-hover {
@@ -439,6 +450,24 @@
   .chaseHitsCat-card {
     padding-top: 8rem;
     padding-bottom: 1rem;
+  }
+
+  .chaseHitsCat-card_carousel {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+  }
+
+  .chaseHitsCat-card_carousel img {
+    width: 99%;
+    margin: auto;
+  }
+
+  .hitsCategories-carousel {
+    bottom: -3.6%;
+  }
+
+  .carousel-item .card-body:last-child {
+    margin-bottom: 3.5rem;
   }
 }
 
