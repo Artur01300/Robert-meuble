@@ -85,6 +85,13 @@
 
 // ---------------------- chaseHitsCat ----------------------------------
 
+@media(max-width: 1024px){
+    .chaseHitsCat{
+        min-height: 94.4vh;
+    }
+}
+
+
 @media(max-width: 800px){
     .chaseHitsCat {
         width: 90%;
@@ -102,6 +109,9 @@
 
 
 @media(max-width: 600px){
+    .chaseHitsCat{
+        min-height: 89vh;
+    }
     .chaseHitsCat{
         height: auto;
     }
@@ -123,7 +133,7 @@
     }
 
     .hitsCategories-carousel{
-        bottom: -3.6%;
+        bottom: 0;
     }
     .carousel-item .card-body:last-child{
         margin-bottom: 3.5rem;
