@@ -1,0 +1,87 @@
+.chaseHitsCat{
+    height: 91.8vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .card{
+        border: none;
+    }
+}
+
+.chaseHitsCat-card{
+    padding-top: 6rem;
+    flex-direction: row;
+    img{
+        width: 35vw;
+    }
+    .hitsCardBody{
+        text-align: left;
+        font-family: "font_all";
+        padding-left: 2rem;
+        flex-direction: column;
+        .card-text{
+            padding-bottom: 3rem;
+        }
+    }
+}
+
+// btn
+.hitsbn-btn-three a{
+    color: rgb(207, 11, 11);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.hitsbtn-container{
+    background-color: #dcddd5;
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hitsbn-btn{
+        line-height: 50px;
+        height: 50px;
+        text-align: center;
+        width: 250px;
+        cursor: pointer;
+    }
+    .hitsbn-btn-three{
+        transition: all 0.5s;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background-color: rgba(17, 3, 3, 0.1);
+            transition: all 0.3s;
+        }
+        &:hover::before{
+            opacity: 0 ;
+            transform: scale(0.5,0.5);
+        }
+
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: 0;
+            transition: all 0.3s;
+            border: 1px solid rgba(233, 88, 80, .75);
+            transform: scale(1.2,1.2);
+        }
+        &:hover::after{
+            opacity: 1;
+            transform: scale(1,1);
+        }
+    }
+}

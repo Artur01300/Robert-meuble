@@ -14,7 +14,10 @@
     align-items: center;
     flex-direction: column;
     padding: 12rem 0rem 2rem 0rem;
-    width: 90%;
+    width: 85%;
+    a{
+        text-decoration: none;
+    }
     .card{
         border: none;
         h4{

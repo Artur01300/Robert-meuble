@@ -78,3 +78,28 @@
         padding-bottom: 2rem;
     }
 }
+
+// ---------------------- chaseHitsCat ----------------------------------
+
+@media(max-width: 800px){
+    .chaseHitsCat-card{
+        flex-direction: column;
+    }
+    .chaseHitsCat-card img {
+        width: auto;
+    }
+}
+
+
+@media(max-width: 600px){
+    .chaseHitsCat{
+        height: auto;
+    }
+    .chaseHitsCat-card .hitsCardBody .card-text {
+        padding-bottom: 0rem;
+    }
+    .chaseHitsCat-card {
+        padding-top: 8rem;
+        padding-bottom: 1rem;
+    }
+}
