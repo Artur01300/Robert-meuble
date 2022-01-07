@@ -261,6 +261,11 @@
   margin-bottom: 3rem;
 }
 
+.resp-iframe {
+  width: 40vw;
+  height: 50vh;
+}
+
 .chaseHitsCat {
   min-height: 91.8vh;
   display: flex;
@@ -476,6 +481,16 @@
 
   .carousel-item .card-body:last-child {
     margin-bottom: 3.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .resp-iframe {
+    width: 70vw;
+    height: 25vh;
+  }
+
+  .hitsCardBody-contact {
+    padding-bottom: 0rem;
   }
 }
 

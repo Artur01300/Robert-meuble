@@ -139,3 +139,14 @@
         margin-bottom: 3.5rem;
     }
 }
+
+// Contact.html Googlemap
+@media(max-width: 800px){
+    .resp-iframe{
+        width: 70vw;
+        height: 25vh;
+    }
+    .hitsCardBody-contact{
+        padding-bottom: 0rem;
+    }
+}
